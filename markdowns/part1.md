@@ -43,6 +43,8 @@ The variable will then be available under `req.params.myParameter`
 
 Here's an API that I started out for you. It's supposed to return content of a user database (a simple static file). Being really lazy, I left out one of the APIs blank and you will have to fill it for me.
 
+I plugged some automated testing to check that everything is in order but you can test your API yourself using the interface once you click "Run my Code".
+
 @[Fill out the API]({"stubs": ["routes/get.js"], "command": "/bin/bash run.sh test"})
 
 Feeling lazy? How about you...
