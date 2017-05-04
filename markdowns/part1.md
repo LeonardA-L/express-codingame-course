@@ -45,7 +45,7 @@ Here's an API that I started out for you. It's supposed to return content of a u
 
 I plugged some automated testing to check that everything is in order but you can test your API yourself using the interface once you click "Run my Code".
 
-@[Fill out the API]({"stubs": ["routes/get.js", "run.sh", "swagger/index.html"], "command": "/bin/bash run.sh test"})
+@[Fill out the API]({"stubs": ["routes/get.js", "run.sh", "swagger/index.html", "swagger/test.json"], "command": "/bin/bash run.sh test"})
 
 Feeling lazy? How about you...
 
