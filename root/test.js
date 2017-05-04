@@ -1,4 +1,6 @@
 var request = require('supertest');
+var assert = require('assert');
+
 describe('Test API', function () {
   var server;
   beforeEach(function () {
@@ -15,6 +17,8 @@ describe('Test API', function () {
   it('Status is ok', function testSlash(done) {
     request(server)
       .get('/status')
-      .expect(200, (a,b,c) => console.log(a,b,c),done);
+      .expect(200, (err, res) => {
+        assert.equal(res.body.status, 'ok'),done();
+      });
   });
 });
