@@ -1,6 +1,12 @@
-title : Content name
+title : ExpressJS and APIs
 plan:
-  - title: Part 1
+  - title: GET APIs with Express
     statement: markdowns/part1.md
-  - title: Part 2
+  - title: POST APIs with Express
     statement: markdowns/part2.md
+projects:
+  mocha:
+   root: root
+   runner:
+    name: codingame/node-npm-runner
+    version: latest

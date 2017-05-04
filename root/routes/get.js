@@ -9,7 +9,7 @@ router.get('/users', function(req, res) {
 });
 
 router.get('/users/:index', function(req, res) {
-  var index = parseInt(req.params.index);
+  var index = parseInt(req.params.index); // Don't forget to parse as a number :)
   res.send(userbase[index]);
 });
 

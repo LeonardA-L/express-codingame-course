@@ -1,0 +1,7 @@
+router.get('/users/:index/:amount', function(req, res) {
+  // Parse parameters
+  var index = parseInt(req.params.index);
+  var amount = parseInt(req.params.amount);
+  // Use Array.slice to return the array
+  res.send(userbase.slice(index, index + amount));
+});
