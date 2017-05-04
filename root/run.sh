@@ -5,6 +5,6 @@
 
 chmod +x ./bin/server.js
 
-./bin/server.js &
+node ./bin/server.js &
 
 echo "CG> open --static-dir /project/target/swagger/ /index.html?url=/$1.json"
