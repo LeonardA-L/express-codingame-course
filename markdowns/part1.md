@@ -47,4 +47,4 @@ Here's an API that I started out for you. It's supposed to return content of a u
 
 Feeling lazy? How about you...
 
-@[Check out the solution]({"stubs": [], "command": "/bin/bash showSolution.sh get"})
+@[Check out the solution]({"stubs": ["blank"], "command": "/bin/bash showSolution.sh get"})
