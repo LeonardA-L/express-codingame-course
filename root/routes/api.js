@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.get('/status', function(req, res) {
-  res.send('ok');
+  res.send({status: 'ok'});
 });
 
 module.exports = router;
