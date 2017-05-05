@@ -5,6 +5,6 @@
 
 chmod +x ./bin/server.js
 
-node ./bin/server.js &
-
 echo "CG> open --port=3000 /swagger/$1.html"
+
+node ./bin/server.js
