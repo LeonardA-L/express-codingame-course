@@ -7,4 +7,4 @@ chmod +x ./bin/server.js
 
 node ./bin/server.js &
 
-echo "CG> open --static-dir /project/target/swagger/ /$1.html"
+echo "CG> open --port=3000 /swagger/$1.html"

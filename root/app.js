@@ -20,6 +20,8 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/swagger', express.static(path.join(__dirname, 'swagger')))
+
 app.use('/', apiGet);
 
 /// catch 404 and forwarding to error handler
